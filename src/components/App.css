@@ -1,0 +1,36 @@
+.app {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+button {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+ul li {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+p span {
+  font-weight: bold;
+}
