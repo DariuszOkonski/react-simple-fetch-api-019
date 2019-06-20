@@ -12,7 +12,7 @@ class App extends React.Component {
   fetchUsers = () => {
     fetch(API)
       .then(res => {
-        if (res.status == 200)
+        if (res.status === 200)
           return res.json();
         else
           throw new Error('Something went wrong');
